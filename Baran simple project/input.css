@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url(phtot3.jpg)no-repeat center center/cover ;
+}
+.aa{
+    background-color: rgb(1, 7, 1);
+    text-align: center;
+   color: aliceblue;
+    padding: 15px;
+}
+.ul{
+    background-color: rgb(14, 14, 13);
+    list-style-type: none;
+    padding: 4px ;
+    text-align: center;
+    color: aliceblue;
+    
+}
+.li{
+  display: inline-block;
+  padding: 25px;
+  text-align: center;
+  color: aliceblue;
+}
+.li:hover{
+    background-color: rgb(233, 24, 24);
+    
+
+}
+

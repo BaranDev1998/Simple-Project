@@ -1,0 +1,52 @@
+
+body{
+    background:url(photo1.jpg)no-repeat center center/cover ;
+    height: 100vh;
+    background-color:rgb(24, 93, 95);
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+.containerm{
+    
+    top: 50%;
+    left: 50%;
+    background-color: aliceblue;
+    border: solid 10px black;
+    border-radius: 30px;
+    box-shadow: 0 0 40px;
+    padding: 30px;
+    
+}
+.login{
+    
+    font-size: 40px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+form{
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: inherit;
+}
+input[type=url],input[type=password]{
+    padding: 5px;
+    margin: 10px;  
+}input[type=url]:hover{
+    background-color: rgb(16, 233, 45);
+}
+input[type=password]:hover{
+    background-color: rgb(0, 255, 85);
+}
+
+button:hover{
+    background-color: rgb(76, 219, 20);
+}
+#aa:hover{
+background-color: red;
+}
